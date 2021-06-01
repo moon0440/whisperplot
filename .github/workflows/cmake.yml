@@ -21,7 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        cmake-version: '3.19.x'
+        cmake-version: '3.20.x'
     - name: Install OS Deps
       run: sudo apt-get install build-essential libnuma-dev
 
